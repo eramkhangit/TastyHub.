@@ -1,0 +1,24 @@
+/* ____________ Colors ________________ */
+:root {
+    --text-linen-color: #FAF0E6,
+        --text-wine-color:#4B0F24,
+        --text-gold-color:#FFD700,
+        --background-linen: #FAF0E6,
+        --background-wind:#4B0F24,
+        --background-gold:#FFD700,
+}
+
+/* ________________ Home ________________ */
+.home-bg-1 {
+    background: url('https://th.bing.com/th/id/R.fcad99825e37ece2b088a5361a3dfcfc?rik=BFOLeQjdhrjqUA&riu=http%3a%2f%2fjuantequila.net%2fwp-content%2fuploads%2f2020%2f04%2fWhy-Enjoy-Restaurant-Meals-Together.jpg&ehk=71xuoHiQRSR9IJ%2bU%2fSS95N5a92bMglTk%2fZcvtRTWSKU%3d&risl=&pid=ImgRaw&r=0') no-repeat;
+    background-size: cover;
+}
+
+.home-heading-text , .home-subheading-text{
+    color : var(--text-linen-color)
+}
+
+/* ____________ Text _________ */
+.text-size{
+    font-size: 16px;
+}
