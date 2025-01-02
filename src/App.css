@@ -22,3 +22,11 @@
 .text-size{
     font-size: 16px;
 }
+
+/* ____________ Colors ___________ */
+.bg-color{
+    background-color: rgb(217, 248, 230);
+}
+.bg-color:hover{
+    box-shadow: 0 0 5px 2px rgb(63, 235, 63);
+}

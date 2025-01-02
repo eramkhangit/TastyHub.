@@ -1,0 +1,58 @@
+.container {
+  position: relative;
+  width: 50%;
+  max-width: 300px;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  /* Black see-through */
+  color: #f1f1f1;
+  width: 100%;
+  transition: .5s ease;
+  opacity: 0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+/* ___________ Buttons ___________ */
+.buttons {
+  background-color: green;
+  color: white;
+  border-radius: 4px;
+  margin-bottom: 4px;
+  padding: 0px 8px;
+}
+
+.buttons:hover {
+  background-color: rgb(234, 234, 119);
+  color: black;
+}
+
+.buy-btn {
+  background-color: brown;
+  color: white;
+  border-radius: 4px;
+  margin-bottom: 4px;
+  padding: 0px 8px;
+}
+
+.buy-btn:hover {
+  background-color: rgb(228, 112, 112);
+  color: black;
+}

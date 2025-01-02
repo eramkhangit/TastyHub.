@@ -1,7 +1,7 @@
 import React from 'react'
 import { Box, Container, InputBase, Typography } from '@mui/material'
 import SearchIcon from '@mui/icons-material/Search';
-import { styled, alpha } from '@mui/material/styles';
+import { styled } from '@mui/material/styles';
 // import AutoplayCarousel from './CarouselItem/AutoPlayCarousel';
 
 
@@ -149,52 +149,19 @@ function Home() {
 
                     <Box className="flex flex-col gap-4 justify-center items-center w-full md:w-[60%] m-auto p-4">
 
-                        <Search className="flex md:mt-7 items-center w-full">
-                            <SearchIconWrapper>
-                                <SearchIcon />
-                            </SearchIconWrapper>
-                            <StyledInputBase
-                                placeholder="Search Food …"
-                                inputProps={{ 'aria-label': 'search' }}
-                                className="flex-grow"
-                            />
-                        </Search>
-
-                        <StyledTypography variant='p' className="font-bold text-[20px] md:text-[30px] text-center">
+                        <StyledTypography variant='p' className="font-bold pt-8 text-[20px] md:text-[30px] text-center">
                             Experience Gourmet Delights without Leaving Home!
                         </StyledTypography>
 
-                        {/* <StyledTypography className="text-center home-subheading-text text-[16px]">
+                        <StyledTypography className="text-center home-subheading-text text-[16px]">
                             Here's the description with the first letter of each sentence capitalized:
 
                             Indulge in gourmet cuisine delivered straight to your door! Our app connects you with top chefs and exquisite restaurants, making fine dining effortless. Treat yourself to a luxurious meal at home and elevate your dining experience today!
-                        </StyledTypography> */}
+                        </StyledTypography>
 
                     </Box>
-
-
+                    
                 </Box>
-
-                {/* <Box className="flex flex-row overflow-hidden gap-2 border-2 border-blue-500"> */}
-                    {/* {
-                        featureDishes.map(dish => (
-                            <div key={dish.id} className="border-2 border-red-600 w-[60%] h-[40vh]" >
-                                <div className='w-[100%] h-[10rem] '>
-                                    <img src={dish.image} alt="No Image" className='h-[10rem] w-full object-cover'/>
-                                </div>
-                                <div>
-                                     <p>{dish.title}</p>
-                                     <p>{dish.description}</p> 
-                                </div>
-                                <div>
-                                    <p>Price : {dish.price} $</p>
-                                    <p>Rating :</p>
-                                </div>
-                            </div>
-                        ))
-                    } */}
-                    {/* <AutoplayCarousel/>
-                </Box> */}
 
             </Container>
         </>
